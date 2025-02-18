@@ -6,6 +6,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Tag Helpers</title>
+    <style>
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-info {
+            background-color: #17a2b8;
+            color: white;
+        }
+
+        .btn-info:hover {
+            background-color: #138496;
+        }
+
+        .btn-rounded {
+            border-radius: 50px;
+        }
+
+        .shadow-lg {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .mybutton {
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect with scale to 110% */
+        .mybutton:hover {
+            transform: scale(2.1);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Image styles for the custom image tag */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,9 +57,12 @@
     <mytag class="btn btn-info rounded" path="https://www.darhan.ac.in/" alt-text="Example Link"></mytag>
 
     <h2>MyTagHelperB (Button)</h2>
-    <mybutton class="btn rounded-2 shadow-lg" bg-color="lightblue">Change to Blue</mybutton>
-    <mybutton class="btn rounded-2 shadow-lg" bg-color="lightcoral">Change to Coral</mybutton>
-    <mybutton class="btn rounded-2 shadow-lg" bg-color="lightgreen">Change to Green</mybutton>
+    <mybutton class="btn btn-rounded shadow-lg" bg-color="lightblue">Change to Blue</mybutton>
+    <mybutton class="btn btn-rounded shadow-lg" bg-color="lightcoral">Change to Coral</mybutton>
+    <mybutton class="btn btn-rounded shadow-lg" bg-color="lightgreen">Change to Green</mybutton>
+
+    <h2>MyTagHelperC (Image)</h2>
+    <myimage src="https://media.istockphoto.com/id/1071030226/vector/less-monday-more-coffee-poster-with-hand-written-lettering-quote.jpg?s=612x612&w=0&k=20&c=--JZMD3ABUdLE-vnzN5cF7_0BFzEnoL4LE7g8cQUdxI=" alt-text="Darshan Logo" width="120" height="100"></myimage>
 
 </body>
 </html>
