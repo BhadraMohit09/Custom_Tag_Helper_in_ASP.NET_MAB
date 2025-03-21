@@ -33,7 +33,7 @@ This project demonstrates how to create **Custom Tag Helpers** in ASP.NET Core t
 
 ---
 
-## 🛠️ Technologies Used  
+#### 🛠️ Technologies Used  
 
 | Technology | Version |
 |------------|---------|
