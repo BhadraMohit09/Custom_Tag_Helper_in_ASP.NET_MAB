@@ -4,7 +4,7 @@
 ![C#](https://img.shields.io/badge/C%23-.NET-blue.svg)  
 ![License](https://img.shields.io/badge/License-MIT-green)  
 
-> 📌 **A simple and efficient way to enhance HTML elements using Custom Tag Helpers in ASP.NET Core MVC.**  
+> 📌 **A simple and efficient way to enhance HTML elements using Custom Tag Helpers in `ASP.NET` Core MVC.**  
 
 ---
 
