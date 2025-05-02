@@ -51,7 +51,7 @@ This project demonstrates how to create **Custom Tag Helpers** in ASP.NET Core t
 
 ---
 
-#### 🏗️ Setup & Installation  
+#### 🏗️ `Setup & Installation`  
 
 #### 1️⃣ Clone the Repository  
 ```sh
