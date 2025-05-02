@@ -8,10 +8,6 @@
 
 ---
 
-#### 📽️ `Demo`  
-
-![Custom Tag Helper Demo](https://your-gif-url-here.gif)  
-
 ---
 
 #### 📖 About the Project  
